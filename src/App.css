@@ -77,27 +77,29 @@
 
 .desc {
 
-  
-  
+
+
 
   width: 268px;
   height: 48px;
   left: 54px;
-  
-  
+
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 22px;
   line-height: 24px;
   /* or 120% */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.01em;
-  
-  background: radial-gradient(386.66% 118.4% at -18.4% 106.36%, #0099FF 0%, #A033FF 43.15%, #FF5280 79.18%, #FF7061 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+  background: radial-gradient(386.66% 118.4% at -18.4% 106.36%, #0099FF 0%, #A033FF 43.15%, #FF5280 79.18%, #FF7061 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -108,19 +110,21 @@
   line-height: 0px;
   margin-left: -70px;
 }
-.inputbox{
-  
-/* position: absolute; */
-width: 314px;
-margin-bottom: 60px;
-height: 83px;
-left: 31px;
-top: 286px;
-border: none;
-background: #E1E1E1;
-border-radius: 10px;
+
+.inputbox {
+
+  /* position: absolute; */
+  width: 314px;
+  margin-bottom: 60px;
+  height: 83px;
+  left: 31px;
+  top: 286px;
+  border: none;
+  background: #E1E1E1;
+  border-radius: 10px;
 }
-.inputbox::placeholder{
+
+.inputbox::placeholder {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -130,4 +134,39 @@ border-radius: 10px;
   /* or 120% */
   color: #414141;
 
+}
+
+.btn {
+  position: absolute;
+  width: 359px;
+  height: 63px;
+  left: 8px;
+  top: 372px;
+
+  background: #000000;
+  color: white;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.send{
+  /* position: absolute; */
+width: 268px;
+height: 24px;
+left: 54px;
+top: 392px;
+justify-content: center;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
 }
